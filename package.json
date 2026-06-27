@@ -1,0 +1,13 @@
+{
+  "name": "patchwork-demo-billing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Demo billing service for Patchwork — intentionally depends on a vulnerable, unpatchable package.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "lodash.set": "4.3.2"
+  }
+}
